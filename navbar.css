@@ -1,0 +1,78 @@
+ body{
+     margin: 0%;
+     padding: 0%;
+ }
+ /* .logo{
+     width: 18%;
+     height: 100px;
+     background-image: url(hospitallogo1.jpg);
+     background-size: cover;
+     background-repeat: no-repeat ;
+    background-color: rgba(0, 0, 0, 0.808);
+ } */
+ .logo img{
+     width: 100%;
+ }
+ .navbar {
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: skyblue;
+ }
+ a {
+     text-decoration: none;
+     
+ }
+ li {
+     list-style: none;
+     float: left;
+     padding: 5px;
+     margin-left: 80px;
+     font-size: 20px;
+ }
+ .list :hover{
+     background-color: aliceblue;
+ }
+ 
+     
+ }
+ .adminlogo {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+
+ }
+ .login{
+     font-size: 30px;
+     margin-left: 45%;
+     margin-top: 20px;
+     color: blue;
+    
+ }
+ #logoimg{
+     margin: 0px;
+     padding: 0px;
+     height: 50px;
+     border-radius: 5%;
+
+ }
+
+ .container{
+     
+     margin-top: 50px;
+     /* width: 300px; */
+     display: flex;
+     justify-content: center;
+
+ }
+
+ .flexbox{
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 20px;
+
+
+ }
