@@ -2,14 +2,7 @@
      margin: 0%;
      padding: 0%;
  }
- /* .logo{
-     width: 18%;
-     height: 100px;
-     background-image: url(hospitallogo1.jpg);
-     background-size: cover;
-     background-repeat: no-repeat ;
-    background-color: rgba(0, 0, 0, 0.808);
- } */
+ 
  .logo img{
      width: 100%;
  }
@@ -36,7 +29,7 @@
  }
  
      
- }
+ 
  .adminlogo {
      display: flex;
      justify-content: center;
