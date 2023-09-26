@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Open Sans", Arial, sans-serif;
+    
+    background-color: ghostwhite;
+
+ }
+ header{
+     height: 50px;
+ }
+
+ header .navbar {
+
+    background: rgb(237, 10, 10);
+    background: linear-gradient(90deg, rgba(237, 10, 10, 1) 2%, rgba(255, 244, 6, 1) 39%);
+}
+
+ .list li {
+     text-transform: uppercase;
+     list-style: none;
+
+
+
+
+ }
+
+ .list {
+     height: 50px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+
+ }
+
+ 
+
+ .list li :hover {
+     background-color: white;
+     color: darkgreen;
+ }
+
+ .main {
+     width: 100%;
+     height: 500px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-weight: lighter;
+     padding: 0 40px 40px 40px;
+     background-color: ghostwhite;
+ }
+  .main .main_text {
+      width: 100%;
+      
+ 
+ 
+ 
+  }
+  .main .main_text p{
+      width: 100%;
+      color: black;
+  }
+  .main_text p {
+    line-height: 1cm;
+
+
+
+}
+.mid{
+    height:100px;
+    background-color: ghostwhite;
+
+    
+}
+.mid_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mid h1{
+    font-weight: 100;
+    color: black;
+    
+}
+.mid p{
+    padding: 10px 100px 0px 100px;
+    color: black;
+
+}
+.footer_main{
+    background-color: ghostwhite;
+    border: 2px solid black;
+    height: 400px;
+
+    
+}
+.footer_main h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color: black;
+
+    
+}
+.special_content h1{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.822);
+    padding: 20px 0px 0px 100px;
+
+    
+
+}
+.special_content p{
+    padding: 20px 0px 0px 100px;
+    color: black;
+    font-weight: 100;
+    color: green;
+    
+
+
+
+}
+.special_content div{
+   
+    width: 420px;
+    
+
+    
+
+}
+.special_content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.foot_container{
+    font-size: medium;
+    height: 500px;
+    border: 2px solid black;
+   
+}
+.foot_container li{
+    list-style: none;
+    
+
+}
+
+
+
+
